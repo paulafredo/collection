@@ -21,8 +21,8 @@
 
 # function et tuples 
 
-def obtenir_info_personne():
-    return "Melanie", 37, 1.64 
+# def obtenir_info_personne():
+#     return "Melanie", 37, 1.64 
 
 # infos = obtenir_info_personne()
 # print(f"nom :  {infos[0]}")
@@ -39,6 +39,8 @@ def obtenir_info_personne():
 # ''''''''SLICE (De :  a ) '''
 personnes = ("Melanie ", "Jean ", "Martin ", "Alice "  ) 
 
+# de 1 a 3(pas inculs )
+# [debut : stop : saut ] valeur 
 for i in personnes[1: 3 ]: 
     print(i)
 
